@@ -2384,9 +2384,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: LogicGates1
       objectReference: {fileID: 0}
+    - target: {fileID: 4967578554360539890, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7936946632818176753}
+    - target: {fileID: 4967578554360539890, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeInput1
+      objectReference: {fileID: 0}
     - target: {fileID: 4983373296751146153, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 595
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983373296751146157, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeInput1
       objectReference: {fileID: 0}
     - target: {fileID: 8901868264659167194, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
       propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2556,9 +2568,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: LogicGates1
       objectReference: {fileID: 0}
+    - target: {fileID: 4967578554360539890, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2961505252597530922}
+    - target: {fileID: 4967578554360539890, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeInput1
+      objectReference: {fileID: 0}
     - target: {fileID: 4983373296751146153, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 594.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983373296751146157, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeInput1
       objectReference: {fileID: 0}
     - target: {fileID: 8901868264659167194, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
       propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2574,6 +2598,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+--- !u!224 &3049315668730491790 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4406589329669892000, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+  m_PrefabInstance: {fileID: 1690540720851948590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5935320208380158083 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4983373296751146157, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
@@ -2585,11 +2614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab64f5bebdc49b41b9f792bfc6319f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &3049315668730491790 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4406589329669892000, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
-  m_PrefabInstance: {fileID: 1690540720851948590}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1540985300617646936 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 149933955273934710, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
@@ -2858,6 +2882,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 594
       objectReference: {fileID: 0}
+    - target: {fileID: 4983373296751146157, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeInput1
+      objectReference: {fileID: 0}
     - target: {fileID: 8901868264659167194, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
       propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2876,6 +2904,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+--- !u!114 &2961505252597530922 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 149933955273934710, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+  m_PrefabInstance: {fileID: 3102361622507210332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab64f5bebdc49b41b9f792bfc6319f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7936946632818176753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4983373296751146157, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+  m_PrefabInstance: {fileID: 3102361622507210332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab64f5bebdc49b41b9f792bfc6319f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1597252641486332412 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4406589329669892000, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}

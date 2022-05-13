@@ -8,17 +8,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private string VManualPuzzle;
     [SerializeField] private string VRandomPuzzle;
     [SerializeField] private Dropdown DifficultyDropdown;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void ManualPuzzle()
     {
         ComfirmValues();
@@ -36,5 +27,10 @@ public class MainMenu : MonoBehaviour
     {
         //save the current difficulty chosen in the instance of global control
         GlobalControl.Instance.DifficultyChoice = DifficultyDropdown.value;
+    }
+    //quitte l'application
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

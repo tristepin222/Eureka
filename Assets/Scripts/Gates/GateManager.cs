@@ -12,21 +12,30 @@ public class GateManager : MonoBehaviour
     public bool output;
     //the current logic gate
     [SerializeField] public LogicGate logicGate;
+    //if it's an end gate, a text is attached to, showing FALSE or TRUE
     [SerializeField] private Text text;
+    //List of avialables gate sprites
     [SerializeField] private List<Sprite> GateSprites = new List<Sprite>();
+    //List of avialables gate inverted sprites
     [SerializeField] private List<Sprite> InversedGateSprites = new List<Sprite>();
+    //the current colorState, green for TRUE, red for FALSE
     [SerializeField] private List<Sprite> ColorState = new List<Sprite>();
+    //the current imageInversed attached to the gate
     [SerializeField] private Image ImageInversed;
+    //the current sprite Gate attached to the gate
     [SerializeField] private Image CurrentState;
     //curent inputs, depending on the gate, only one input is used;
     private bool input1;
     private bool input2;
+    //current image
     private Image Image;
    
+
     private void Start()
     {
         //get the current spriteRenderer
         Image = this.gameObject.GetComponent<Image>();
+        //depending on the logicGate's type, the gate's sprite and inverted sprite will change
         switch (logicGate.type)
         {
             case LogicGate.LogicGateType.Buffer:
@@ -161,6 +170,7 @@ public class GateManager : MonoBehaviour
                 break;
         }
 
+        //change the color to green if output is true and red if output is false
         if (!output)
         {
             CurrentState.sprite = ColorState[0];
@@ -185,6 +195,7 @@ public class GateManager : MonoBehaviour
         }
     }
    
+    //this part is an event when the value, meaning the output of the current gate changed, affecting whatever is set in the input on the editor tab
     [Serializable]
     public class ValueChangedEvent : UnityEvent <bool> {}
     [FormerlySerializedAs("onValueChange")]

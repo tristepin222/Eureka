@@ -252,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 4967578554360539890}
     - target: {fileID: 8548543243517435717, guid: fcac31ecbacf8b545b7af3b211b37a66, type: 3}
       propertyPath: OnValueChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeInput2
+      value: ChangeInput1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcac31ecbacf8b545b7af3b211b37a66, type: 3}

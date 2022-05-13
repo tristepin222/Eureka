@@ -8,6 +8,7 @@ public class CheckDifficulty : MonoBehaviour
     [SerializeField] private GameObject Easy;
     [SerializeField] private GameObject Medium;
     [SerializeField] private GameObject Hard;
+    [SerializeField] private bool isCustom;
     [SerializeField] public GameObject currentMap;
     
     // Start is called before the first frame update
@@ -29,6 +30,20 @@ public class CheckDifficulty : MonoBehaviour
                 currentMap = Hard;
                 break;
         }
-        this.gameObject.GetComponent<RandomPuzzle>().Randomize(currentMap.GetComponent<MapInfo>());
+        //if the map is custom, does nothing, if the var saved in the global control and custom isn't true, it will generate a random puzzle
+        //if the var saved in the global control is true and custom isn't true, it will generate from the custom puzzle created by the player
+        if (isCustom)
+        {
+            
+        }
+        else if(!GlobalControl.Instance.saved && !isCustom)
+        {
+
+            this.gameObject.GetComponent<GeneratePuzzle>().Randomize(currentMap.GetComponent<MapInfo>());
+        }else if (GlobalControl.Instance.saved && !isCustom)
+        {
+            GlobalControl.Instance.saved = false;
+            this.gameObject.GetComponent<GeneratePuzzle>().CustomPuzzle(currentMap.GetComponent<MapInfo>(), GlobalControl.Instance.mapInfo);
+        }
     }
 }

@@ -93,7 +93,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4406589329669892001, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
       propertyPath: m_Name
-      value: LogicGates1
+      value: LogicGates1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4967578554360539890, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}
+      propertyPath: logicGate.type
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f9bc617610eef4d8633ccb11245264, type: 3}

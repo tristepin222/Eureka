@@ -57,14 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gates\GateManager.cs" />
-    <Compile Include="Assets\Scripts\Puzzle\RandomPuzzle.cs" />
+    <Compile Include="Assets\Scripts\Puzzle\GeneratePuzzle.cs" />
+    <Compile Include="Assets\Scripts\Puzzle\CustomPuzzle.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Puzzle\MapInfo.cs" />
     <Compile Include="Assets\Scripts\Puzzle\GlobalControl.cs" />
     <Compile Include="Assets\Scripts\Puzzle\CheckDifficulty.cs" />
     <Compile Include="Assets\Scripts\UI\Zoom.cs" />
     <Compile Include="Assets\Scripts\Puzzle\ResolvePuzzle.cs" />
+    <Compile Include="Assets\Scripts\Gates\CustomGateManager.cs" />
     <Compile Include="Assets\Scripts\Classes\LogicGate.cs" />
-    <Compile Include="Assets\Scripts\Puzzle\MapInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

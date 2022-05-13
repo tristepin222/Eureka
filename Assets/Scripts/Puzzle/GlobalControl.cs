@@ -8,6 +8,10 @@ public class GlobalControl : MonoBehaviour
     public static GlobalControl Instance;
     //the current difficulty choosen
     public int DifficultyChoice;
+    //current custom puzzle's mapInfo
+    public MapInfo mapInfo;
+    //is true if there is a custom puzzle saved
+    public bool saved;
     // Start is called before the first frame update
     private void Start()
     {
