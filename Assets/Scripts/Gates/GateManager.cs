@@ -36,40 +36,43 @@ public class GateManager : MonoBehaviour
         //get the current spriteRenderer
         Image = this.gameObject.GetComponent<Image>();
         //depending on the logicGate's type, the gate's sprite and inverted sprite will change
-        switch (logicGate.type)
+        if (ColorState.Count != 0)
         {
-            case LogicGate.LogicGateType.Buffer:
-                Image.sprite = GateSprites[0];
-                ImageInversed.sprite = InversedGateSprites[0];
-                break;
-            case LogicGate.LogicGateType.NOT:
-                Image.sprite = GateSprites[1];
-                ImageInversed.sprite = InversedGateSprites[1];
-                break;
-            case LogicGate.LogicGateType.AND:
-                Image.sprite = GateSprites[2];
-                ImageInversed.sprite = InversedGateSprites[2];
-                break;
-            case LogicGate.LogicGateType.NAND:
-                Image.sprite = GateSprites[3];
-                ImageInversed.sprite = InversedGateSprites[3];
-                break;
-            case LogicGate.LogicGateType.OR:
-                Image.sprite = GateSprites[4];
-                ImageInversed.sprite = InversedGateSprites[4];
-                break;
-            case LogicGate.LogicGateType.NOR:
-                Image.sprite = GateSprites[5];
-                ImageInversed.sprite = InversedGateSprites[5];
-                break;
-            case LogicGate.LogicGateType.XOR:
-                Image.sprite = GateSprites[6];
-                ImageInversed.sprite = InversedGateSprites[6];
-                break;
-            case LogicGate.LogicGateType.XNOR:
-                Image.sprite = GateSprites[7];
-                ImageInversed.sprite = InversedGateSprites[7];
-                break;
+            switch (logicGate.type)
+            {
+                case LogicGate.LogicGateType.Buffer:
+                    Image.sprite = GateSprites[0];
+                    ImageInversed.sprite = InversedGateSprites[0];
+                    break;
+                case LogicGate.LogicGateType.NOT:
+                    Image.sprite = GateSprites[1];
+                    ImageInversed.sprite = InversedGateSprites[1];
+                    break;
+                case LogicGate.LogicGateType.AND:
+                    Image.sprite = GateSprites[2];
+                    ImageInversed.sprite = InversedGateSprites[2];
+                    break;
+                case LogicGate.LogicGateType.NAND:
+                    Image.sprite = GateSprites[3];
+                    ImageInversed.sprite = InversedGateSprites[3];
+                    break;
+                case LogicGate.LogicGateType.OR:
+                    Image.sprite = GateSprites[4];
+                    ImageInversed.sprite = InversedGateSprites[4];
+                    break;
+                case LogicGate.LogicGateType.NOR:
+                    Image.sprite = GateSprites[5];
+                    ImageInversed.sprite = InversedGateSprites[5];
+                    break;
+                case LogicGate.LogicGateType.XOR:
+                    Image.sprite = GateSprites[6];
+                    ImageInversed.sprite = InversedGateSprites[6];
+                    break;
+                case LogicGate.LogicGateType.XNOR:
+                    Image.sprite = GateSprites[7];
+                    ImageInversed.sprite = InversedGateSprites[7];
+                    break;
+            }
         }
     }
 
@@ -171,13 +174,16 @@ public class GateManager : MonoBehaviour
         }
 
         //change the color to green if output is true and red if output is false
-        if (!output)
+        if (ColorState.Count != 0)
         {
-            CurrentState.sprite = ColorState[0];
-        }
-        else
-        {
-            CurrentState.sprite = ColorState[1];
+            if (!output)
+            {
+                CurrentState.sprite = ColorState[0];
+            }
+            else
+            {
+                CurrentState.sprite = ColorState[1];
+            }
         }
         //invoke the event with the output as a value
         OnValueChange.Invoke(output);

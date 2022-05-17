@@ -10,13 +10,15 @@ ScriptsOnlyBuild:
     - MainMenu
     - MapInfo
     - ResolvePuzzle
+    - TakeScreenShot
     - Zoom
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
+    - TestRunner.Callbacks.WindowResultUpdaterDataHolder
+    - UnityEditor.TestRunner.TestLaunchers.RemotePlayerLogController
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
@@ -54,45 +56,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1436}
+      Script: {instanceID: 1440}
     - Class: 114
-      Script: {instanceID: 1438}
+      Script: {instanceID: 1442}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1638}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2018}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 2898}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3468}
+      Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3472}
+      Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3624}
     - Class: 114
-      Script: {instanceID: 3628}
+      Script: {instanceID: 3634}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 4174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -129,39 +131,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1436}
+      Script: {instanceID: 1440}
     - Class: 114
-      Script: {instanceID: 1438}
+      Script: {instanceID: 1442}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2018}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 2898}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3468}
+      Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3472}
+      Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 4174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,43 +200,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1436}
+      Script: {instanceID: 1440}
     - Class: 114
-      Script: {instanceID: 1438}
+      Script: {instanceID: 1442}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1638}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2018}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2820}
     - Class: 114
       Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 2898}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3468}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3628}
+      Script: {instanceID: 3474}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3624}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 3768}
+    - Class: 114
+      Script: {instanceID: 3904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -572,6 +578,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TakeScreenShot
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -749,4 +761,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/ResolvePuzzle.unity
   - Assets/Scenes/CustomPuzzle.unity
-  playerPath: "D:/Eur\xEAka!_1.00/Eur\xEAka!.exe"
+  playerPath: "D:/Eur\xEAka!_2.00/Eur\xEAka!.exe"
