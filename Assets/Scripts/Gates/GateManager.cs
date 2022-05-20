@@ -82,7 +82,10 @@ public class GateManager : MonoBehaviour
         input1 = value;
         changeOuput();
     }
-    //change the second input, if applicable (some gates only have 1 input)
+    /// <summary>
+    /// change the second input, if applicable (some gates only have 1 input)
+    /// </summary>
+    /// <param name="value"></param>
     public void ChangeInput2(bool value)
     {
         input2 = value;
