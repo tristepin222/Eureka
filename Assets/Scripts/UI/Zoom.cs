@@ -7,12 +7,12 @@ public class Zoom : MonoBehaviour
     public RectTransform tr;
     public float LocalValue = 1f;
     private const float SCALE = 0.5f;
-
+    private const float MIN = 0.034f;
     // Start is called before the first frame update
     private void Start()
     {
         //init new value with local scale of x=1, y=1
-        tr.localScale = new Vector2(LocalValue, LocalValue);
+        tr.localScale = new Vector2(MIN,MIN);
     }
   
     

@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gates\GateManager.cs" />
+    <Compile Include="Assets\Scripts\Tests 1\TakeScreenShotTest.cs" />
     <Compile Include="Assets\Scripts\Puzzle\GeneratePuzzle.cs" />
-    <Compile Include="Assets\Scripts\Tests\GateManagerTest.cs" />
+    <Compile Include="Assets\Scripts\Tests 1\GateManagerTest.cs" />
     <Compile Include="Assets\Scripts\Puzzle\CustomPuzzle.cs" />
     <Compile Include="Assets\Scripts\UI\TakeScreenShot.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
@@ -71,7 +72,7 @@
     <Compile Include="Assets\Scripts\Classes\LogicGate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\Tests\TestAssembly.asmdef" />
+    <None Include="Assets\Scripts\Tests 1\Tests 1.asmdef" />
     <None Include="Assets\Scripts\Tests.asmref" />
   </ItemGroup>
   <ItemGroup>

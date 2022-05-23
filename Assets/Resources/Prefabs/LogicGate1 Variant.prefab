@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 6593269119000305521}
   - component: {fileID: 4386366104887337905}
   m_Layer: 5
-  m_Name: Dropdown
+  m_Name: ListDropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
