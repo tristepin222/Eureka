@@ -12,7 +12,9 @@ public class GlobalControl : MonoBehaviour
     public MapInfo mapInfo;
     //is true if there is a custom puzzle saved
     public bool saved;
-    // Start is called before the first frame update
+    /// <summary>
+    /// Start is called before the first frame update
+    /// </summary>
     private void Start()
     {
         //check if instance is null or not, if instance is null, set all var as not destroy on load, else destroy vars (avoid duplicates)

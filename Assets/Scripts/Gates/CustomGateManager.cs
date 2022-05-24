@@ -17,7 +17,10 @@ public class CustomGateManager : MonoBehaviour
     //the GateManager attached to the customGate
     [SerializeField] private GateManager gateManager;
 
-    //when a gate is chosen in the dropdown, it will change the sprite of the gate, depending on which gate is chosen and if the gate has one input only or not
+    /// <summary>
+    /// when a gate is chosen in the dropdown, it will change the sprite of the gate, depending on which gate is chosen and if the gate has one input only or not
+    /// </summary>
+    /// <param name="value"></param>
     public void OnSelectGate(int value)
     {
         //get the current sprite, and change it

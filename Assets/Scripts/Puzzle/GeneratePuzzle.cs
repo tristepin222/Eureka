@@ -13,9 +13,12 @@ public class GeneratePuzzle : MonoBehaviour
     //since gates are static, and there won't be more gates in the future, these are constant int
     //index for custom gates
     private int index = 0;
-    
 
-    //randomize every gates given to it, changes depending the current difficulty
+
+    /// <summary>
+    /// randomize every gates given to it, changes depending the current difficulty
+    /// </summary>
+    /// <param name="mapInfo"></param>
     public void Randomize(MapInfo mapInfo)
     {
        
@@ -63,7 +66,11 @@ public class GeneratePuzzle : MonoBehaviour
         }
         
     }
-    //generate every gates with the custom puzzle, changes depending the current difficulty, the type stays the same.
+    /// <summary>
+    /// generate every gates with the custom puzzle, changes depending the current difficulty, the type stays the same.
+    /// </summary>
+    /// <param name="mapInfo"></param>
+    /// <param name="mapinfoSaved"></param>
     public void CustomPuzzle(MapInfo mapInfo, MapInfo mapinfoSaved)
     {
 

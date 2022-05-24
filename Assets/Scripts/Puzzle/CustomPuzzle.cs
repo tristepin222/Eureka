@@ -7,7 +7,9 @@ public class CustomPuzzle : MonoBehaviour
     //the resolve scene
     const string RESOLVESCENE = "ResolvePuzzle";
 
-    //when pressing the confirm button, it will save the current puzzle's mapInfo, and load the resolve scene
+    /// <summary>
+    /// when pressing the confirm button, it will save the current puzzle's mapInfo, and load the resolve scene
+    /// </summary>
     public void confirmSelction()
     {
         GlobalControl.Instance.saved = true;

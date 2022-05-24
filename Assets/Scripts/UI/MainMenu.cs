@@ -8,27 +8,36 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private string VManualPuzzle;
     [SerializeField] private string VRandomPuzzle;
     [SerializeField] private Dropdown DifficultyDropdown;
-    
 
+    /// <summary>
+    /// //load scene with var VManualPuzzle 
+    /// </summary>
     public void ManualPuzzle()
     {
         ComfirmValues();
-        //load scene with var VManualPuzzle  
+         
         SceneManager.LoadScene(VManualPuzzle);
     }
+    /// <summary>
+    /// load scene with var  VRandomPuzzle  
+    /// </summary>
     public void RandomPuzzle()
     {
         ComfirmValues();
-        //load scene with var  VRandomPuzzle  
+         
         SceneManager.LoadScene(VRandomPuzzle);
     }
-    //confirm the current chosen value, then load a scene
+    /// <summary>
+    /// confirm the current chosen value, then load a scene
+    /// </summary>
     private void ComfirmValues()
     {
         //save the current difficulty chosen in the instance of global control
         GlobalControl.Instance.DifficultyChoice = DifficultyDropdown.value;
     }
-    //quitte l'application
+    /// <summary>
+    ///quitte l'application
+    /// </summary>
     public void Quit()
     {
         Application.Quit();

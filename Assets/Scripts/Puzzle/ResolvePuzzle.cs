@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 public class ResolvePuzzle : MonoBehaviour
 {
     private const string MAIN_MENU = "MainMenu";
-    //check if the last gate is true, if true the game is won, and main menu is loaded
+    /// <summary>
+    /// check if the last gate is true, if true the game is won, and main menu is loaded
+    /// </summary>
+    /// <param name="value"></param>
     public void checkWin(bool value)
     {
         if (value)

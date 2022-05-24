@@ -30,7 +30,9 @@ public class GateManager : MonoBehaviour
     //current image
     private Image Image;
    
-
+    /// <summary>
+    /// fonction de base d'unity
+    /// </summary>
     private void Start()
     {
         //get the current spriteRenderer
@@ -76,7 +78,10 @@ public class GateManager : MonoBehaviour
         }
     }
 
-    //change the first input
+    /// <summary>
+    /// change the first input, if applicable (some gates only have 1 input)
+    /// </summary>
+    /// <param name="value"></param>
     public void ChangeInput1(bool value)
     {
         input1 = value;
@@ -91,8 +96,10 @@ public class GateManager : MonoBehaviour
         input2 = value;
         changeOuput();
     }
-    
-    //change the output, depending from the input and the logic gate
+
+    /// <summary>
+    /// change the output, depending from the input and the logic gate
+    /// </summary>
     private void changeOuput()
     {
         //check the current logic gate state, and depending on the type, output will change from input
@@ -203,8 +210,10 @@ public class GateManager : MonoBehaviour
             }
         }
     }
-   
-    //this part is an event when the value, meaning the output of the current gate changed, affecting whatever is set in the input on the editor tab
+
+    /// <summary>
+    /// this part is an event when the value, meaning the output of the current gate changed, affecting whatever is set in the input on the editor tab
+    /// </summary>
     [Serializable]
     public class ValueChangedEvent : UnityEvent <bool> {}
     [FormerlySerializedAs("onValueChange")]

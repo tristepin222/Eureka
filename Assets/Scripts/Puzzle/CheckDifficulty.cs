@@ -10,8 +10,10 @@ public class CheckDifficulty : MonoBehaviour
     [SerializeField] private GameObject Hard;
     [SerializeField] private bool isCustom;
     [SerializeField] public GameObject currentMap;
-    
-    // Start is called before the first frame update
+
+    /// <summary>
+    /// Start is called before the first frame update
+    /// </summary>
     private void Start()
     {
         //depending on choosen difficulty, a map will be enabled while others are disabled
