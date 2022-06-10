@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 961
-    y: 51
-    width: 958
-    height: 988
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -41,10 +41,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 276
-    height: 180
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 450
+    height: 330
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -67,14 +67,14 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
-    x: 682
+    x: 1470
     y: 0
-    width: 276
-    height: 938
+    width: 450
+    height: 947
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 107
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,12 +94,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 958
-    height: 938
+    width: 1920
+    height: 947
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 79
+  controlID: 37
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -116,9 +116,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 180
-    width: 276
-    height: 758
+    y: 330
+    width: 450
+    height: 617
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -143,8 +143,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 201
-    height: 563
+    width: 324
+    height: 580
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -168,9 +168,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 563
-    width: 682
-    height: 375
+    y: 580
+    width: 1470
+    height: 367
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -199,8 +199,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
-    height: 988
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -248,8 +248,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 968
-    width: 958
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -272,12 +272,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 682
-    height: 938
+    width: 1470
+    height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 80
+  controlID: 38
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,12 +297,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 682
-    height: 563
+    width: 1470
+    height: 580
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 81
+  controlID: 17
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -313,23 +313,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 201
+    x: 324
     y: 0
-    width: 481
-    height: 563
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+    width: 1146
+    height: 580
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -350,18 +350,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1643
-    y: 81
-    width: 275
-    height: 159
+    x: 1470
+    y: 73
+    width: 449
+    height: 309
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
     ID: 166
     splitterInitialOffset: 130
     currentActiveSplitter: -1
     realSizes:
-    - 57
-    - 32
+    - 155
+    - 84
     relativeSizes:
     - 0.64835167
     - 0.35164833
@@ -371,7 +371,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 89
+    lastTotalSize: 239
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -399,6 +399,258 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
+    - id: 1015
+      uniqueId: "[Tests1][D:/Eur\xEAka!/Eureka/Library/ScriptAssemblies/Tests1.dll][suite]"
+      name: Tests1.dll
+      fullName: "D:/Eur\xEAka!/Eureka/Library/ScriptAssemblies/Tests1.dll"
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: "[Eur\xEAka!][suite]"
+    - id: 1001
+      uniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+      name: GateManagerTest
+      fullName: GateManagerTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: "[Tests1][D:/Eur\xEAka!/Eureka/Library/ScriptAssemblies/Tests1.dll][suite]"
+    - id: 1004
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestAndWithOneTrueInput]
+      name: GateManagerTestAndWithOneTrueInput
+      fullName: GateManagerTest.GateManagerTestAndWithOneTrueInput
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1002
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestBufferWithTwoTrueInputs]
+      name: GateManagerTestBufferWithTwoTrueInputs
+      fullName: GateManagerTest.GateManagerTestBufferWithTwoTrueInputs
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1007
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestNandWithOneFalseAndOneTrueInput]
+      name: GateManagerTestNandWithOneFalseAndOneTrueInput
+      fullName: GateManagerTest.GateManagerTestNandWithOneFalseAndOneTrueInput
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1006
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestNorWithOneFalseAndOneTrueInput]
+      name: GateManagerTestNorWithOneFalseAndOneTrueInput
+      fullName: GateManagerTest.GateManagerTestNorWithOneFalseAndOneTrueInput
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1003
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestNotWithOneTrueInput]
+      name: GateManagerTestNotWithOneTrueInput
+      fullName: GateManagerTest.GateManagerTestNotWithOneTrueInput
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1005
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestOrWithOneTrueInput]
+      name: GateManagerTestOrWithOneTrueInput
+      fullName: GateManagerTest.GateManagerTestOrWithOneTrueInput
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1009
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestXnorWithTwoTrueInputs]
+      name: GateManagerTestXnorWithTwoTrueInputs
+      fullName: GateManagerTest.GateManagerTestXnorWithTwoTrueInputs
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1008
+      uniqueId: Tests1.dll/GateManagerTest/[Tests1][GateManagerTest.GateManagerTestXorWithOneFalseAndOneTrueInput]
+      name: GateManagerTestXorWithOneFalseAndOneTrueInput
+      fullName: GateManagerTest.GateManagerTestXorWithOneFalseAndOneTrueInput
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests1.dll/[Tests1][GateManagerTest][suite]
+    - id: 1010
+      uniqueId: Tests1.dll/[Tests1][TakeScreenShotTest][suite]
+      name: TakeScreenShotTest
+      fullName: TakeScreenShotTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: "[Tests1][D:/Eur\xEAka!/Eureka/Library/ScriptAssemblies/Tests1.dll][suite]"
+    - id: 1014
+      uniqueId: Tests1.dll/TakeScreenShotTest/[Tests1][TakeScreenShotTest.TakeScreenShotTestCaptureWithoutFolder]
+      name: TakeScreenShotTestCaptureWithoutFolder
+      fullName: TakeScreenShotTest.TakeScreenShotTestCaptureWithoutFolder
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests1.dll/[Tests1][TakeScreenShotTest][suite]
+    - id: 1011
+      uniqueId: Tests1.dll/TakeScreenShotTest/[Tests1][TakeScreenShotTest.TakeScreenShotTestSingleCapture]
+      name: TakeScreenShotTestSingleCapture
+      fullName: TakeScreenShotTest.TakeScreenShotTestSingleCapture
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests1.dll/[Tests1][TakeScreenShotTest][suite]
+    - id: 1013
+      uniqueId: Tests1.dll/TakeScreenShotTest/[Tests1][TakeScreenShotTest.TakeScreenShotTestThreeCaptures]
+      name: TakeScreenShotTestThreeCaptures
+      fullName: TakeScreenShotTest.TakeScreenShotTestThreeCaptures
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests1.dll/[Tests1][TakeScreenShotTest][suite]
+    - id: 1012
+      uniqueId: Tests1.dll/TakeScreenShotTest/[Tests1][TakeScreenShotTest.TakeScreenShotTestTwoCaptures]
+      name: TakeScreenShotTestTwoCaptures
+      fullName: TakeScreenShotTest.TakeScreenShotTestTwoCaptures
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests1.dll/[Tests1][TakeScreenShotTest][suite]
     m_ResultText: "Eur\xEAka! (0.416s)"
     m_ResultStacktrace: 
     m_TestListState:
@@ -503,10 +755,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 644
-    width: 681
-    height: 354
+    x: 0
+    y: 653
+    width: 1469
+    height: 346
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -521,22 +773,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Puzzle
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Puzzle
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Eur\xEAka!\\Eureka"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea3e0000
-    m_LastClickedID: 16106
-    m_ExpandedIDs: 00000000d23e0000d43e0000d63e0000d83e0000da3e000000ca9a3b
+    m_SelectedIDs: ec3e0000
+    m_LastClickedID: 16108
+    m_ExpandedIDs: 00000000da3e0000dc3e0000de3e0000e03e0000e23e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,7 +816,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d23e0000d43e0000d63e0000d83e0000da3e0000
+    m_ExpandedIDs: 00000000da3e0000dc3e0000de3e0000e03e0000e23e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,10 +892,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1643
-    y: 261
-    width: 275
-    height: 737
+    x: 1470
+    y: 403
+    width: 449
+    height: 596
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -652,7 +904,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 1298
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -677,17 +929,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 81
-    width: 200
-    height: 542
+    x: 0
+    y: 73
+    width: 323
+    height: 559
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8af8fffffef8ffff08f9ffff80f9ffff8cf9ffff10faffff1cfaffffb8410000
+      m_SelectedIDs: 56470000
+      m_LastClickedID: 18262
+      m_ExpandedIDs: ecf9ffff6efbffff663f0000ca3f0000424400008e44000056470000164a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -731,25 +983,25 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 401
+    x: 324
     y: 73
-    width: 963
-    height: 547
+    width: 1144
+    height: 559
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 0
-  m_SceneIsLit: 0
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 789.6519, y: 115.958, z: -200.86964}
+    m_Target: {x: 147.7474, y: -25.846321, z: -2356.0393}
     speed: 2
-    m_Value: {x: 789.6519, y: 115.958, z: -200.86964}
+    m_Value: {x: 112.80307, y: -43.48384, z: -2351.3125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -761,7 +1013,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -800,9 +1052,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 944.926
+    m_Target: 1253.9308
     speed: 2
-    m_Value: 944.926
+    m_Value: 1313.0165
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -847,10 +1099,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1162
-    y: 81
-    width: 479
-    height: 542
+    x: 324
+    y: 73
+    width: 1144
+    height: 559
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -858,7 +1110,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 479, y: 269}
+  m_TargetSize: {x: 956, y: 538}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -873,10 +1125,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -239.5
-    m_HBaseRangeMax: 239.5
-    m_VBaseRangeMin: -134.5
-    m_VBaseRangeMax: 134.5
+    m_HBaseRangeMin: -478
+    m_HBaseRangeMax: 478
+    m_VBaseRangeMin: -269
+    m_VBaseRangeMax: 269
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -894,23 +1146,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 479
-      height: 521
+      width: 1144
+      height: 538
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 239.5, y: 260.5}
+    m_Translation: {x: 572, y: 269}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -239.5
-      y: -260.5
-      width: 479
-      height: 521
+      x: -572
+      y: -269
+      width: 1144
+      height: 538
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 479, y: 542}
+  m_LastWindowPixelSize: {x: 1144, y: 559}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
